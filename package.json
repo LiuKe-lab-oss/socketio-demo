@@ -1,0 +1,30 @@
+{
+  "name": "hello-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "node server/app.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "4",
+    "node-schedule": "^2.1.0",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "unplugin-auto-import": "^0.8.5",
+    "unplugin-vue-components": "^0.19.6",
+    "vite-plugin-compression": "^0.5.1",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
